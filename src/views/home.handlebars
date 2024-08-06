@@ -1,0 +1,22 @@
+<h2>Lista de Productos</h2>
+
+{{!-- Iterar un array --}}
+
+    {{#each products}}
+  <div>
+    <p>------------------------</p>
+    <h3>Producto: {{id}} : {{title}}</h3>
+    
+    <p>description: {{description}}</p>
+    <p>code: {{code}}</p>
+    <p>price: {{price}}</p>
+    <p>stock: {{stock}}</p>
+
+
+
+  </div>
+{{/each}}
+
+<script src="/index.js"></script>
+
+
